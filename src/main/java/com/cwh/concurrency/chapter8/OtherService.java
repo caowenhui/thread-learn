@@ -21,7 +21,7 @@ public class OtherService {
     public void s2(){
         synchronized (lock){
             System.out.println("s2=======================");
-            deadLock.m1();
+            deadLock.m2();
         }
     }
 
